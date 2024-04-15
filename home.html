@@ -1,29 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore HTML A to Z</title>
 </head>
+
 <body>
     <header>
+        <nav>
+            <ul>
+                <li><a href="#home.html">Home</a></li>
+            </ul>
+        </nav>
 
     </header>
 
     <main>
         <!-- what is HTML & History -->
         <section>
-            <h1>what is HTML ???</h1>
-            <p>HTML is not a programming language.This is Markup Language.Markup is the tag used to display any information on a web page or browser.Any information can be shared from one place to another through web pages or browsers by writing HTML.</p>
-            <p>The full form of HTML is Hypertext Markup Language</p>
+            <h1>What is HTML ???</h1>
+            <p>HTML is not a programming language.This is Markup Language.Markup is the tag used to display any
+                information on a web page or browser.Any information can be shared from one place to another through web
+                pages or browsers by writing HTML.</p>
+            <p>The full form of HTML is <strong>Hypertext</strong> Markup Language</p>
+            <p>
+                <strong>"Hypertext"</strong> refers to links that connect web pages to one another, either within a
+                single website or between websites
+            </p>
+
+            <p>
+                Writing HTML requires an editor like Visual Studio Code, notepad++ etc
+            </p>
+
+            <div>
+                <h1>History of HTML</h1>
+                <p>
+                    The first version of HTML was written by Tim Berners-Lee in 1993. Since then, there have been many
+                    different versions of HTML. The most widely used version throughout the 2000's was HTML 4.01, which
+                    became an official standard in December 1999. Another version, XHTML, was a rewrite of HTML as an
+                    XML language.
+                </p>
+                <h1>Tim Berners-Lee</h1>
+                <p>
+                    Sir Tim Berners-Lee invented the World Wide Web while at CERN, the European Particle Physics
+                    Laboratory, in 1989. He wrote the first web client and server in 1990. His specifications of URIs,
+                    HTTP and HTML were refined as Web technology spread.
+                </p>
+            </div>
+
+        </section>
+        <!-- HTML Introduction  -->
+        <section>
+            <h1>HTML Introduction</h1>
+            <p>HTML is the standard markup language for creating Web pages.</p>
+
+            <h1>
+                A Simple HTML Document
+            </h1>
+           <div class="class">
+            <pre>
+                <span> &lt;!DOCTYPE html&gt;</span>
+                
+                   <span>&lt;html&gt;</span>
+
+                            <span>&lt;head&gt;</span>
+
+                            <span>&lt;/head&gt;</span>
+
+                            <span>&lt;body&gt;</span>
+
+                            <span>&lt;/body&gt;</span>
+
+                    <span>&lt;/html&gt;</span>
+            </pre>
+           </div>
 
         </section>
 
-    </main> 
+        <ol>
+            html লিখতে গেলে দুই ধরনের Element পাওয়া যায় 
+            <li>Block Element</li>
+            <li>inline Element</li>
+        </ol>
+
+        <section>
+            <h1>Block Element</h1>
+            <p>
+                Block Element গুলো browser এর সমস্ত জায়গা জুরে থাকে 
+                যেমনঃ- heading tag, paragraph tag , div tag etc.... 
+            </p>
+            <h1>inline Element</h1>
+            <p>
+                inline Element গুলো browser এর সমস্ত জায়গা জুরে থাকে না বরং পাশাপাশি বসে
+                যেমনঃ- span tag, em tag , small tag etc.... 
+            </p>
+        </section>
+
+        <section>
+            <h1>HTML List: Container Tag, List Tags (Ol, Ul, Li), Line Break, Button</h1>
+            <pre>ordered List :
+                 &lt;ol&gt;
+
+                        &lt;li&gt;  &lt;/li&gt;
+                        &lt;li&gt;  &lt;/li&gt;
+                            
+                &lt;/ol&gt;
+            </pre>
+
+            <pre>unordered List :
+                 &lt;ul&gt;
+
+                        &lt;li&gt;  &lt;/li&gt;
+                        &lt;li&gt;  &lt;/li&gt;
+                            
+                &lt;/ul&gt;
+            </pre>
+
+            <pre>
+                Break:&lt;br&gt;
+
+                button: &lt;button&gt;&lt;/button&gt;
+            </pre>
+
+        </section>
+
+
+
+    </main>
 
     <footer>
 
     </footer>
-    
+
 </body>
+
 </html>
